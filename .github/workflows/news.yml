@@ -2,7 +2,7 @@ name: AI Tools News Digest
 
 on:
   schedule:
-    - cron: '30 22 * * 0-4'  # JST 月〜金 朝7時30分
+    - cron: '30 22 * * 0-4'
   workflow_dispatch:
 
 jobs:
